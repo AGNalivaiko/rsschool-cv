@@ -9,7 +9,10 @@ Phone +375293984503; Email <arthurnalivaiko@mail.ru>; Discord: AGNalivaiko;
 
 Summary: I'm 24 years old. Studied to become a lawyer. But i've lost interest to develop in this profession. Now I want to learn the profession of a front-end developer. So I went to rsschool courses
 
-Skills: HTML, CSS, JavaScript
+Skills: 
++HTML, 
++CSS, 
++JavaScript
 
 Code: function findArray(arr1, arr2) {
     let endArr = [];
