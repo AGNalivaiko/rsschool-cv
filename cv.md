@@ -1,7 +1,7 @@
 Nalivaiko Arthur
 <br/>
 
-#Contacts:<br?\/>
+#Contacts:<br\/>
 
 Phone +375293984503; Email <arthurnalivaiko@mail.ru>; Discord: AGNalivaiko;
 
