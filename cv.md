@@ -1,6 +1,4 @@
 Nalivaiko Arthur
-<br/>
-
 Contacts:
 
 
