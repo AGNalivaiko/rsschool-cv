@@ -18,7 +18,7 @@ Code: function findArray(arr1, arr2) {
 
 Projects: CV
 
-Education: Francisk Skorina Gomel State University
+Education: Francisk Skorina Gomel State University, 2022
 
 Courses: CodeBasics HTML; CodeBasics CSS; RSS JavaScrip/Front-End;
 
