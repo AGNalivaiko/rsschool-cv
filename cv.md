@@ -6,7 +6,15 @@ Summary: I'm 24 years old. Studied to become a lawyer. But i've lost interest to
 
 Skills: HTML, CSS, JavaScript
 
-Code: <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+Code: function findArray(arr1, arr2) {
+    let endArr = [];
+    for(let i = 0; i < arr2.length; i++) {
+        if (arr1.length > arr2[i]) {
+            endArr.push(arr1[arr2[i]])
+        }        
+    }
+    return endArr
+}
 
 Projects: CV
 
