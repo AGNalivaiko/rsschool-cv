@@ -1,1 +1,2 @@
-http://127.0.0.1:5500/CV/cv.html
+https://AGNalivaiko.github.io/rsschool-cv/cv
+https://AGNalivaiko.github.io/rsschool-cv/
