@@ -1,1 +1,223 @@
-// Стили для пустой страницы // 
+*{
+  box-sizing: border-box;
+}
+
+.main_container {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #ecd5ab;
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header */
+
+.header {display: flex; color: white; }
+
+.header_info_left {
+  display: flex; 
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  width: 30%;
+  background-color: #e89a3d;
+}
+.quote { margin-top:50px;}
+
+.header_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_img img {
+  width: 300px;
+  height: 350px;
+}
+
+.header_right_info {
+  width: 70%;
+  background-color:  #915b40;
+}
+
+.header_list ul { display: flex;}
+
+.header_list li {
+  margin: 50px; 
+  font-size: 22px; 
+  list-style: none;}
+
+.header_list{ margin-left: 50px;}
+
+/* mian */
+.main { padding-bottom: 20px; }
+
+.h_aboutMe {  text-align: center; }
+
+.main p{
+  font-size: 24px;
+}
+
+.text_aboutME {
+  border-top: 1px solid black;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+
+.text_aboutStrength h2 { margin-left: 30px;}
+
+.text_aboutStrength li {
+  padding: 5px 0; 
+  font-size: 24px;
+  list-style-type: disc;
+}
+
+.education h2 {  margin-left: 30px; }
+.education p {margin-left: 30px; font-size: 24px;}
+
+.languages h2 { margin-left: 30px;}
+
+.languages li {
+  padding: 5px 0; 
+  font-size: 24px;
+  list-style-type: disc;
+}
+
+.skills h2 {margin-left: 30px;}
+
+.skills_img {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.skills img {
+  width: 50px;
+  height: 50px;
+}
+
+/* code */
+.code_exampleH { text-align: center; }
+
+.code_example {
+  padding: 0 20px;
+  margin: 0 20px;
+}
+
+.f { color: purple; }
+.v {color: orange;}
+.b{color:royalblue;}
+
+.code_example {
+  font-size: 18px;
+  background-color: #202026;
+  color:white;
+}
+
+.border_top {
+  border-top: 1px solid black;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0 20px;
+}
+/* projects */
+.projects h2 {
+  text-align: center;
+
+}
+.projects_exsmples { 
+  border-top: 1px solid black;
+  margin: 0 20px;
+  padding: 0 20px;
+  padding-top: 20px;
+  display: flex;
+}
+.projects_exsmples img {
+  width: 400px;
+  height: 200px;
+}
+.project_one {
+  width: 50%;
+}
+.img_project_one {
+  padding-left: 70px;
+  width: 100%; 
+}
+
+.description {
+  font-size: 14px;
+  text-align: justify;
+}
+.utilities{
+  display: flex;
+  justify-content: space-evenly;
+}
+.utilities img {
+  width:50px;
+  height: 50px;
+}
+.project_two {  
+  margin-left: 20px;
+  padding-left: 50px;
+  width: 50%;
+}
+.project_twoIMG {
+  padding-left: 50px;
+}
+
+/* footer */
+.footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color:#915b40;
+  color:white;
+}
+.contacts {
+  width: 50%;
+  /* border: 1px yellow solid; */
+  margin-right: 100px;
+}
+.contacts li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+/* .contacts a {
+  color: inherit;
+  text-decoration: none;
+} */
+.contacts p {
+  padding-top: 90px;
+  padding-left: 20px;
+}
+.rs_logo {
+  width: 50%;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+.rs_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
