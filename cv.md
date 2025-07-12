@@ -1,28 +1,16 @@
-Nalivaiko Arthur
-Contacts:
-
-Phone +375293984503; Email <arthurnalivaiko@mail.ru>; Discord: AGNalivaiko;
+Nalivaiko Arthur 
+<br/>
+Contacts: Phone +375293984503; Email <arthurnalivaiko@mail.ru>; Discord: AGNalivaiko;
 
 Summary: I'm 24 years old. Studied to become a lawyer. But i've lost interest to develop in this profession. Now I want to learn the profession of a front-end developer. So I went to rsschool courses
 
-Skills: 
-+HTML, 
-+CSS, 
-+JavaScript
+Skills: HTML, CSS, JavaScript
 
-Code: function findArray(arr1, arr2) {
-    let endArr = [];
-    for(let i = 0; i < arr2.length; i++) {
-        if (arr1.length > arr2[i]) {
-            endArr.push(arr1[arr2[i]])
-        }        
-    }
-    return endArr
-}
+Code: <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
 
 Projects: CV
 
-Education: Francisk Skorina Gomel State University, 2022
+Education: Francisk Skorina Gomel State University
 
 Courses: CodeBasics HTML; CodeBasics CSS; RSS JavaScrip/Front-End;
 
