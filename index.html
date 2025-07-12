@@ -1,15 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
 </head>
-    
 <body>
-    
-    
+  <div class='main_container'>
+  <header>
+    <div class='header'>
+      <div class='header_info_left'>
+        <div class= 'header_name'><h1>Arhur Nalivaiko</h1></div>
+        <div class ='header_profession'><h2>Frontend Developer</h2></div>
+        <div class='quote'>
+          <blockquote>
+            <p><i>«Success consists of going from failure to failure without loss of enthusiasm»</i><p>
+                <figcaption>
+                  <p> © Winston Churchill</p>
+                </figcaption>
+          </blockquote>
+        </div>
+      </div>
+      <div class = 'header_right_info'>
+        <div class = 'header_img'>
+          <img src='portret.jpg' alt='portret'>
+        </div>
+        <div class='header_list'>
+          <nav>
+            <ul>
+              <li><a href ='#about'>ABOUT</a></li>
+              <li><a href = '#code'>CODE</a></li>
+              <li><a href = '#skills'>SKILLS</a></li>
+              <li><a href = '#projects'>PROJECTS</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class='main'>
+      <h2 id ='about'class='h_aboutMe'>ABOUT ME</h2>
+      <div class = 'text_aboutME'>
+        <p> I am 24 years old, I work as a lawyer. I think that my actual job will lead me to stagnation some day or other. 
+          I really need in activities where I can develop during my life. 
+          That is why I`m here. My goal is to gain knowledge in the field of front-end development.</p>
+      </div>
+      <div class = 'text_aboutStrength'>
+        <h2>MY STRENGTHS:</h2>
+        <ul>
+          <li>Quick learner</li>
+          <li>Full immersion in the essence of the problems</li>
+          <li>Diligence</li>
+          <li>Team playing</li>
+        </ul>
+      </div>
+      <div class = 'languages'>
+        <h2>LANGUAGES:</h2>
+        <ul>
+          <li>Russian - native speaker</li>
+          <li>English - B1 (B2 in proccess...)</li>
+        </ul>
+      </div>
+      <div class = 'education'>
+        <h2>EDUCATION:</h2>
+        <p>Francysk Skaryna University</p>
+      </div>
+      <div class='skills'>
+        <h2 id ='skills'>SKILLS:</h2>
+        <div class = 'skills_img'>
+          <img src = 'html.png' alt='html logo'>
+          <img src="css.png" alt='css logo'>
+          <img src='js.png' alt="js logo">
+        </div>
+      </div>      
+      <h2 id = 'code'class='code_exampleH'>CODE EXAMPLE</h2>
+      <div class = 'border_top'></div>
+      <div class='code_example'>
+        <code>
+          <span class = 'f'>function</span> <span class ='v'>digitize</span>(<span class='v'>strin</span>) {<br>
+            <span class = 'f'>let</span> <span class = 'v'>arr</span> = [];<br>
+        
+            <span class = 'f'>for</span> (<span class='f'>let</span>  <span class = 'v'>str</span> <span class='f'>of</span> 
+            String(<span class = 'b'>strin</span>)) {<br>
+                <span class='b'>arr.push</span>(Number(<span class='b'>str</span>));<br>
+            }<br>
+            <span class='f'>return</span> <span class='b'>arr.reverse</span>()
+        </code>
+      </div>
+      <div class = 'projects'>
+        <h2 id='projects'>PROJECTS</h2>
+        <div class='projects_exsmples'>
+          <div class ='project_one'>
+            <div class='img_project_one'>
+              <a href='https://github.com/AGNalivaiko/The-Alphabet-Game'><img src='projectOne.png' alt='pic1'></a>
+            </div>
+            <div class='description'>
+              <h2>GUESS THE NUMBER GAME</h2>
+              <p>The number is randomly generated. You need to write numbers in a certain range. If you haven't guessed correctly, 
+                a hint is displayed. The best result is recorded</p>
+            </div>
+            <div class='utilities'>
+              <img src = 'html.png' alt='html logo'>
+              <img src="css.png" alt='css logo'>
+              <img src='js.png' alt="js logo">
+            </div>
+          </div>
+          <div class='project_two'>
+            <div class ='project_twoIMG'>
+             <a href ='https://github.com/AGNalivaiko/Guess-the-number-game'><img src='projectTwo.png' alt='pic2'></a>
+            </div>
+            <div class='description_two'>
+              <h2>THE ALPHABET GAME</h2>
+              <p>The letters are scattered randomly. By clicking on them, they move. 
+                Make a correct sequential series of letters in alphabetical order</p>
+            </div>
+            <div class='utilities'>
+              <img src = 'html.png' alt='html logo'>
+              <img src="css.png" alt='css logo'>
+              <img src='js.png' alt="js logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class='footer'>
+      <div class='contacts'>
+        <ul>
+          <li>+375444744131</li>
+          <li>arthurnalivaiko@mail.ru</li>
+          <li><a href = 'https://github.com/AGNalivaiko?tab=repositories'>Git Hub</a></li>
+        </ul>
+        <p><i>Created in 2025</i></p>
+      </div>
+      <div class='rs_logo'>
+       <a href='https://rs.school/courses/javascript-ru'> <img src='rs-school-logo.svg' alt ='rs-school-logo'></a> 
+      </div>     
+    </div>
+  </footer>
+  </div>
 </body>
 </html>
